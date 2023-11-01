@@ -1,0 +1,120 @@
+*{
+    margin :0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.navbar{
+    background-color: rgb(111, 77, 54); 
+    display: flex;
+    justify-content: right;
+    gap: 10px;
+    padding: 25px;
+    font-size: large;
+    text-decoration: none;
+    font-family:sans-serif;
+
+}
+
+.navbar a:visited{
+    color: rgb(2, 2, 2);
+}
+
+.navbar a:actove{
+    color: rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color: #58bad3
+}
+
+.home{
+    margin-right: auto;
+}
+
+
+img{
+    width: 250;
+}
+
+#Ground2Ground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    font-family: quicksand;
+    text-align: center;
+    width :600px;
+    margin: 0 auto;
+    font-size:x-large;
+}
+
+.title{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.social{
+    background-color:grey;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 25px;
+    font-size: large;
+    text-decoration: none;
+    font-family:sans-serif;
+    border-radius: 20px;
+    max-width: 80%;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-bottom:25px;
+}
+
+img{
+    width: 300px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    }
+
+.drinkstitle{
+    text-align: center;
+    font-family: sans-serif;
+    }
+
+.drinksabout{
+    text-align: center;
+    font-size:  larger;
+    margin: 0 auto;
+
+}
+
+
+.drinksmenu{
+    display: flex;
+    justify-content: row;
+    gap: 50px;
+    justify-content: center;
+}
+
+.pasteriestitle{
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.pasteriesabout{
+    text-align: center;
+    font-size:  larger;
+    margin: 0 auto;
+}
+
+.pasteriesmenu{
+    display: flex;
+    justify-content: row;
+    gap: 50px;
+    justify-content: center;
+}
