@@ -101,18 +101,18 @@ img{
     justify-content: center;
 }
 
-.pasteriestitle{
+.pastriestitle{
     font-family: sans-serif;
     text-align: center;
 }
 
-.pasteriesabout{
+.pastriesabout{
     text-align: center;
     font-size:  larger;
     margin: 0 auto;
 }
 
-.pasteriesmenu{
+.pastriesmenu{
     display: flex;
     justify-content: row;
     gap: 50px;
